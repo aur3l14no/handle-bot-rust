@@ -14,9 +14,9 @@ fn main() {
         bot.print_status();
         let mut line = String::new();
 
-        for (s, e) in bot.bot_candidates() {
-            println!("{}: {}", s, e);
-        }
+        // for (s, e) in bot.bot_candidates() {
+        //     println!("{}: {}", s, e);
+        // }
 
         loop {
             stdin.read_line(&mut line).unwrap();
